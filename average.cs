@@ -7,7 +7,7 @@ public class Average{
 		string endWord;
 		Console.Write("Insert a mark: ");
 		endWord=Console.ReadLine();	 
-		while(s!="end")
+		while(endWord!="end")
 		{ 
 			number2=Convert.ToDouble(s);
 			number3++;  
